@@ -38,7 +38,7 @@ function App() {
       <div class='bg-wave-bottom w-full h-96 bg-no-repeat bg-cover -mt-5'></div>
       <Family />
       {/* Contact */}
-      <div class='bg-wave-top w-full h-32 lg:h-64 2xl:h-96 bg-no-repeat bg-cover mt-32 -mb-1'></div>
+      <div class='bg-wave-top w-full h-32 lg:h-64 2xl:h-96 bg-no-repeat bg-cover mt-8 -mb-1'></div>
       <ContactSection />
       <div class='bg-wave-bottom w-full h-32 lg:h-64 2xl:h-96 bg-no-repeat bg-cover -mt-5'></div>
       {/* Footer */}

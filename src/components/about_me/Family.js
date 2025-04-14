@@ -30,7 +30,7 @@ const Family = props => {
                     modifier: 1,
                     slideShadows: true,
                 }}
-                initialSlide={1}
+                initialSlide={2}
                 modules={[EffectCoverflow, Pagination]}
                 className="mySwiper"
             >

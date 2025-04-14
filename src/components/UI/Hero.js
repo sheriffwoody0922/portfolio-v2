@@ -61,7 +61,7 @@ const Hero = props => {
                 <div>
                     <img src={hero1} alt='Hrayr Andreasyan in the street.' class='mt-10 hidden lg:block lg:mt-16 lg:max-w-xs xl:max-w-md' />
                 </div>
-                <div class='max-w-2xl'>
+                <div class='max-w-2xl mt-12'>
                     <p class='mb-5'><span><img src={locationPin} class='h-4 inline mb-1 mr-1' alt='Location pin icon' /></span>Yerevan, Armenia</p>
                     <h1 class='mb-5 font-bold font-poppins'>
                         <span class={tailwindClassName}>Hrayr Andreasyan,</span><br />
@@ -69,9 +69,9 @@ const Hero = props => {
                         <span class={tailwindClassSoftware} >Software</span><br />
                         <span class={tailwindClassEngineer} >Engineer</span>
                     </h1>
-                    <p class='my-8 md:my-16 text-neutral xl:leading-loose'>
+                    {/* <p class='my-8 md:my-16 text-neutral xl:leading-loose'>
                         I am Hrayr, also known as Harry, a Senior Software Engineer based in Yerevan, Armenia.  Specializing in building fast, scalable web apps with the latest tech. I’m big on clean code, love mentoring, and always look for smart ways to solve tricky problems. Turning complicated stuff into simple, useful things that people actually enjoy using.
-                    </p>
+                    </p> */}
                     <a href={resume} target='_blank' rel="noreferrer" class='btn mr-10 btn-md text-xs mb-5 sm:mb-0'>Get my Resume</a>
                     <div class="dropdown dropdown-hover">
                         <a href='mailto:hrair5@inbox.ru' target='_blank' rel="noreferrer" class="btn btn-outline btn-md text-xs px-12">hrair5@inbox.ru</a>
