@@ -7,36 +7,27 @@ const AboutSection = props => {
         <div class='bg-black pb-32'>
             <section id='section-about'>
                 <SectionHeader text={'About Me'} headerGradientStyle={'header-about-me'} />
-                <AboutMe projectTitle={`Hi! 👋 I'm Damian`} bgImage={'bg-virus'} techStack={['HTML5', 'CSS3', 'GitHub', 'JS', 'React', 'Figma', 'Netlify', 'Linux']}>
+                <AboutMe projectTitle={`Hi! 👋 I'm Harry`} bgImage={'bg-virus'} techStack={['HTML5', 'CSS3', 'GitHub', 'JS', 'React', 'Figma', 'Netlify', 'Linux']}>
                     <ParagraphLight>
-                        My interest in technology started when I was a teenager and <a class='link link-primary' href='https://en.wikipedia.org/wiki/Dial-up_Internet_access' target='_blank' rel='noreferrer'>dial-up</a> Internet connections were booming. I still remember plugging in a 10 metres telephone cable to my PC from the phone box every night to avoid keeping my family’s phone line busy during peak hours.
+                        I got into computers when I was a kid. We didn’t have one at home yet, so I’d go to my friend’s house after school, they had a big beige PC. We used to mess around with this program called <a class='link link-primary' href='https://en.wikipedia.org/wiki/Encarta' target='_blank' rel='noreferrer'>Encarta</a>, it was like a digital encyclopedia, and sometimes we’d play old MS-DOS games like Gorillas or Nibbles. Half the time we had no idea what we were doing, but it was super fun. I started learning just by clicking stuff, breaking things, and figuring it out later.
                     </ParagraphLight>
                     <ParagraphLight>
-                        In those days I started playing with Linux as well, thanks to a book about the Slackware distro that I bought and came with a set of floppy disks. I right away noticed the importance of having a backup of your files, because I ended up formatting the hard drive multiple times due to the learning process.
+                        Later on, I got curious about how things worked behind the screen. I started playing with simple tricks, like editing websites in the browser or messing around on school computers. That’s when I found out about <a class='link link-primary' href='https://en.wikipedia.org/wiki/Kevin_Mitnick' target='_blank' rel='noreferrer'>Kevin Mitnick</a> and thought he was the coolest guy ever. The way he talked about social engineering and thinking outside the box really stuck with me. I wanted to be like him, not to cause trouble, but to understand how things worked and find ways around the rules.
                     </ParagraphLight>
                     <ParagraphLight>
-                        Around the same time, I also started playing with scripting on several <a class='link link-primary' href='https://en.wikipedia.org/wiki/Internet_Relay_Chat' target='_blank' rel='noreferrer'>IRC</a> programs. In those days, social networks as we know them today didn’t exist, so the “chat rooms” were the closest we could get.
+                        My parents are both psychologists, so they really wanted me to do something more “human-focused.” They pushed me toward social work, and I went along with it. I finished my degree and even worked in that field for a bit. But deep down, I still loved tech. Eventually, I switched paths and got into web development. It felt like coming back home.
                     </ParagraphLight>
                     <ParagraphLight>
-                        It was inevitable that I started playing with HTML also. I used to make very rudimentary pages about things I liked and hosting them on <a class='link link-primary' href='https://en.wikipedia.org/wiki/Yahoo!_GeoCities' target='_blank' rel='noreferrer'>GeoCities</a> for free.
+                        After switching careers, I started freelancing on platforms like Upwork and Freelancer. At first, I took on small website projects, mostly simple business sites using WordPress. As I got more confident, I moved into e-commerce stuff with WooCommerce and started building medium-sized online stores. It wasn’t always easy, but I loved the freedom and the fact that I was finally doing something I actually enjoyed. Somewhere along the way, I met my wife too, so yeah… things worked out pretty well.
                     </ParagraphLight>
                     <ParagraphLight>
-                        Fast forward some years, I chose to study Computer Science at university but, after a year, I switched to Telecommunications Engineering. After graduating, I got my first job at Hewlett-Packard as a support analyst, but I quickly moved to a company specialised in mobile telecommunications, <a class='link link-primary' href='https://en.wikipedia.org/wiki/Claro_(company)' target='_blank' rel='noreferrer'>Claro AMX</a>, in which I worked most of my professional life.
+                        But after a while, I started feeling like something was missing. Between 2016 and 2018, the world of programming changed a lot, like Node.js and Python were blowing up, cloud services were everywhere, and web development was moving way beyond just making websites. I realized I didn’t want to stick to small projects forever. I wanted to be part of something bigger, to work with a team, build something cool, and keep learning. So I started looking for new opportunities where I could grow and really level up.
                     </ParagraphLight>
                     <ParagraphLight>
-                        In 2019, my wife and I decided to quit our jobs, sell all of our possessions, and move to a different continent. We jumped over <a class='link link-primary' href='https://www.distancefromto.net/distance-from-argentina-to-australia' target='_blank' rel='noreferrer'>12.000 km</a> from Argentina to Australia, searching for new experiences and a better future. I started studying for an MBA a couple of weeks after arriving in the country, and I finished it in 2021.
+                        That’s when I started working with different companies like Leafcloud, Newsela, Percona, and Zayo. Each one taught me something new. I got experience with cloud service management, database monitoring, project migrations, and remote support for managed services. It was a big step up from building websites alone. Over time, I got really comfortable working with tools like Node.js and Python, and picked up a bunch of other skills along the way. It felt good to be part of real teams, solving real problems.
                     </ParagraphLight>
                     <ParagraphLight>
-                        I think making such a big change in my life allowed me to face most of my fears and reassured my self-confidence and trust in my capabilities, which is difficult for someone that is constantly pushing himself to be better. In 2021, after working for an Australian technology company developing an integration of the <a class='link link-primary' href='https://en.wikipedia.org/wiki/Simple_Network_Management_Protocol' target='_blank' rel='noreferrer'>SNMP protocol</a> in the C programming language, I rediscovered how good it felt to make programs; to create something out of nothing.
-                    </ParagraphLight>
-                    <ParagraphLight>
-                        That last experience is what brings me to this moment, returning to my humble beginnings in web development. With all the work experience I gathered on different companies, and the practice gained by studying engineering and a masters, I’m now focusing all my energy and knowledge into becoming the best web developer I can be, hoping to work in this industry for the rest of my professional life.
-                    </ParagraphLight>
-                    <ParagraphLight>
-                        I know I might be late in the game, but I’m studying new technologies every day, coding and building projects as often as I can, and looking forward to gaining work experience in web development related companies.
-                    </ParagraphLight>
-                    <ParagraphLight>
-                        I’m a firm believer in the growth mindset concept, and that “life is not about finding yourself, but about creating yourself” (George Bernard Shaw).
+                        Now, I’m a dad to a daughter and a son, and life’s busier than ever, but in the best way. I still try to learn something new every day, whether it’s testing out a new tech stack, coding small side projects, or just keeping up with what’s happening in the dev world. I’m hoping to join a web development team where I can keep growing and build cool stuff with others. My motto’s pretty simple: “Be positive, be easy, and life will bless you.” So far, it’s working out.                    
                     </ParagraphLight>
                 </AboutMe>
             </section>

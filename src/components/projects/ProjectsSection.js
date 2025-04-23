@@ -11,41 +11,41 @@ const ProjectsSection = props => {
             <section id="section-projects">
                 <SectionHeader text={'Projects'} headerGradientStyle={'header-projects'} />
                 <ProjectRight
-                    projectTitle={'COVID-19 Dashboard'}
+                    projectTitle={'Leafcloud Customer Portal'}
                     bgImage={'bg-virus'}
                     techStack={['HTML5', 'CSS3', 'GitHub', 'JS', 'Figma', 'Netlify']}
                     buttonWatchItLive={'https://colo-codes.github.io/mini-projects/covid-19-dashboard-app/'}
                     buttonDescription={'https://blog.damiandemasi.com/my-second-vanilla-javascript-project-using-apis-promises-classes-error-handling-and-more'}
                     buttonGitHub={'https://github.com/Colo-Codes/mini-projects/tree/main/covid-19-dashboard-app'}>
                     <ParagraphLight>
-                        <p>This project was one of my favourite tools for breaking my way out of tutorial hell 👹. I also wanted this project to serve me as a display of my JavaScript skills to potential employers or collaborators.</p>
+                        <p>This project was my first experience working as part of a team since joining Leafcloud, a company that not only offers cloud services but also uses the heat from servers to warm up buildings 🔥. Love the concept!</p>
                     </ParagraphLight>
                     <ParagraphLight>
-                        <p>By the time I decided to start working on this project I had just finished learning about Promises, async...await, APIs and error handling. I wanted to code a project to implement all of this knowledge.</p>
+                        <p>At the time, I had been doing solo freelance projects and already had some hands-on experience with React and Python-Django, so I wanted to keep building on that and sharpen those skills 😎.</p>
                     </ParagraphLight>
                     <ParagraphLight>
                         <H4Header>Lessons learned</H4Header>
                     </ParagraphLight>
                     <ParagraphLight>
-                        <p>At the start, this project seemed simple, but it quickly got complicated, especially because I was dealing with three different APIs (and a couple more that didn’t work in the end).</p>
+                        <p>When I joined, there was already a Django repo set up, using the Django admin panel for basic CRUD, but the logic behind the scenes was pretty complex 😵‍💫. We had to migrate everything to a Next.js frontend and also refactor the legacy Django code from function-based views to class-based ones.</p>
                     </ParagraphLight>
                     <ParagraphLight>
-                        <p>I didn’t spend much time on HTML, but CSS proved to be demanding once more 😅. Thanks to the challenges I faced I gain more CSS skills and learned how to better debug it.</p>
+                        <p>We used a monorepo setup for the Next.js frontend. Instead of just breaking things down into tiny components, we treated entire pages as components. That worked better for us since we had so many shared forms and tables. This way, we could just plug APIs into the component props and reuse them easily 😌. The most important thing was making sure everything stayed in sync, especially matching the frontend component types with the request/response types from the Swagger OpenAPI docs 🧾.</p>
                     </ParagraphLight>
                     <ParagraphLight>
-                        <p>Regarding JavaScript, I could have implemented MVC from the get-go, so I will do that in my next project. As I previously said, I prefer not to refactor this project and leave it as a witness of my skills at the time.</p>
+                        <p>On the Django side, I focused on improving the testing process. We used factory_boy and fixtures, and followed the Given-When-Then (BDD) approach to make the tests more readable and maintainable.</p>
                     </ParagraphLight>
                     <ParagraphLight>
-                        <p>APIs are reliable… most of the time 🤭. I’m sure paid APIs perform better, so if I need to use them in the future for a more serious project, I will research deeply what is the best API to get for the job.</p>
+                        <p>While handling all that backend stuff, I also got to explore OpenStack, Kubernetes, and Keycloak, which was a big learning curve but super valuable.</p>
                     </ParagraphLight>
                     <ParagraphLight>
-                        <p>This project still has room for improvement, but I had to make the decision to stop working on it at some point. Overall, I think it’s functioning as expected.</p>
+                        <p>This project still has room for improvement, but I’m happy with what I learned and how it turned out. Overall, I think it’s doing what it’s supposed to do 😄.</p>
                     </ParagraphLight>
-                    <ParagraphLight>
+                    {/* <ParagraphLight>
                         <div style={{ padding: '56.25% 0 0 0', position: 'relative' }}>
                             <iframe width="560" height="315" src="https://www.youtube.com/embed/61NIjXcV5wg" title="COVID-19 Dashboard App Demo" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen style={{ position: 'absolute', top: '0', left: '0', width: '100%', height: '100%' }}></iframe>
                         </div>
-                    </ParagraphLight>
+                    </ParagraphLight> */}
                 </ProjectRight>
                 <ProjectLeft
                     projectTitle={'To-Do app'}

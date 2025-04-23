@@ -1,4 +1,4 @@
-import hero1 from '../../assets/img/hero1.webp';
+import hero2 from '../../assets/img/hero2.png';
 import iconLinkedIn from '../../assets/img/icon-linkedin.webp';
 import iconTwitter from '../../assets/img/icon-twitter.webp';
 import iconGitHub from '../../assets/img/icon-github.webp';
@@ -13,7 +13,7 @@ const AboutMe = props => {
         <div class="mt-32 flex gap-6 max-w-5xl mx-auto text-white px-2 flex-wrap md:flex-nowrap">
             <div data-theme="mytheme" class="mx-auto">
                 <div>
-                    <img src={hero1} alt='Damian Demasi with a hat in a park on a sunny day.' class='max-w-xs' />
+                    <img src={hero2} alt='Damian Demasi with a hat in a park on a sunny day.' class='max-w-xs' />
                 </div>
                 <div class="w-3/5 mx-auto mt-14">
                     <ButtonLight goTo={resume} target='_blank' rel="noreferrer">Get my Resume</ButtonLight>
